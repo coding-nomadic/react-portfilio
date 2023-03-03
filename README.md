@@ -14,9 +14,5 @@ A simple portfolio of mine developed in react JS and material UI.
 - Netlify
 - fontAwesome
 
-## Live website running below URL - 
+## Check out Live Running URL - https://tenzin-dawa.netlify.app/
 
-```
-https://tenzin-dawa.netlify.app/
-
-```
