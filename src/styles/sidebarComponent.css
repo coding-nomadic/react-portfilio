@@ -1,0 +1,485 @@
+/******* Common Component Style *******/
+
+.id-section {
+    padding-bottom: 30px;
+    padding-top: 0;
+    position: relative;
+}
+
+.full-height {
+    height: fit-content;
+}
+
+.common-attributes {
+    padding-bottom: 0!important;
+}
+
+.common-attributes .card-action {
+    font-size: 1.0rem!important;
+    border-top: 1px solid #ddd!important;
+    padding-left: 0!important;
+}
+
+.common-attributes .card-title {
+    margin-bottom: 0!important;
+}
+
+.common-attributes a {
+    text-transform: uppercase;
+    text-decoration: none!important;
+    font-family: sans-serif;
+}
+
+.btn-small:hover, .btn-large:hover {
+    color: white!important;
+}
+
+/*****************************************/
+
+/******* Introduction Component Style *******/
+
+#Introduction {
+    background: lightblue;
+    position: relative;
+    height: 100vh
+}
+
+#Introduction .main-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+#Introduction h2 {
+    font-weight: 300;
+    font-size: 45px;
+    display: inline-block;
+    padding-left: 0!important;
+    padding-top: 40px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    line-height: 60px!important;
+}
+
+#Introduction .underline {
+    border-bottom: 4px solid teal;
+}
+
+/*****************************************/
+
+/******* About Component Style *******/
+
+.about-container {
+    margin-bottom: 30px;
+}
+
+.about-container p {
+    text-align: justify;
+    font-weight: 300;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    font-size: 1.4rem;
+}
+
+blockquote {
+    border-left: 5px solid #795548;
+}
+
+.about-container h2 {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*****************************************/
+
+/******* Experience Component Style *******/
+
+.experience-container {
+    padding-bottom: 50px;
+}
+
+.experience-container li {
+    font-size: 17px;
+    list-style-type: disc!important;
+    margin-left: 30px;
+    padding-bottom: 8px;
+    text-align: justify;
+}
+
+.experience-header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.experience-header img {
+    height: 60px;
+}
+
+.experience-header .card-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.experience-container .card-action {
+    font-size: 1rem;
+}
+
+.experience-container .card-content {
+    height: 100%;
+}
+
+/*******************************************/
+
+/******* Projects Component Style *******/
+
+.project-container .personal-card {
+    height: 420px;
+}
+
+.project-container .professional-card {
+    height: 370px;
+}
+
+.project-container .personal-card-image {
+    height: 210px;
+}
+
+.project-container .card-content {
+    padding: 10px 20px 10px 20px;
+}
+
+.project-container .btn-floating {
+    margin-right: 20px!important;
+}
+
+.project-container .card-title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.project-container p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #333333;
+    padding: 5px 0;
+    text-align: justify;
+}
+
+.project-container .card-data {
+    height: 70px;
+}
+
+.project-container .card-reveal div {
+    font-size: 0.9rem;
+}
+
+.project-container .card-reveal p {
+    font-size: 1rem;
+    margin-bottom: 0 !important;
+    text-align: initial;
+}
+
+.project-container.card-action {
+    padding-top: 20px;
+}
+
+.react-player {
+    height: 85vh!important;
+}
+
+/*******************************************/
+
+/******* Skills Component Style *******/
+
+.skills-card h4 {
+    text-transform: uppercase;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px!important;
+    font-size: 1.6rem!important;
+    font-weight: 300;
+    text-align: left;
+}
+
+.skills-card img {
+    height: 50px
+}
+
+.skills-card .card-content .row {
+    margin-bottom: 10px!important;
+}
+
+.skills-navbar nav {
+    margin-bottom: 20px!important;
+}
+
+.skills-navbar ul a {
+    font-size: 1.5rem;
+    text-decoration: none!important;
+    text-transform: uppercase;
+}
+
+.skills-navbar ul a.active,
+.skills-navbar ul a:hover {
+    background-color: #008080;
+    color: white!important;
+}
+
+.skills-card .card-content {
+    padding-bottom: 0!important;
+}
+
+/*******************************************/
+
+/******* Education Component Style *******/
+.education-container {
+    padding-bottom: 85px;
+}
+
+.education-container .card-title {
+    font-size: 1.8rem!important;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px!important;
+}
+
+.education-container .card-content .container {
+    font-size: 1.4rem;
+    list-style-type: disc!important;
+}
+
+/*******************************************/
+
+/******* Certification Component Style *******/
+.certificate-container {
+    padding-bottom: 85px!important;
+}
+
+.certificate-container .card-title {
+    font-size: 1.8rem!important;
+    border-bottom: 1px solid #ddd;
+    line-height: 25px!important;
+    padding-bottom: 20px!important;
+}
+
+.certificate-container p {
+    text-align: justify;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+/*******************************************/
+
+/******* Contact Component Style *******/
+.contact-info {
+    padding-bottom: 300px;
+    text-align: -webkit-center;
+}
+
+.contact-info .teal-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-info svg {
+    vertical-align: middle;
+}
+
+/*******************************************/
+
+@media all and (max-width: 1024px) {
+    #Introduction h2 {
+        font-size: 42px!important;
+        line-height: 55px!important;
+    }
+
+    .skills-navbar {
+        display: none;
+    }
+
+    .skills-card .brown-text {
+        font-size: 27px!important;
+    }
+
+    .education-container .card-title, .certificate-container .card-title {
+        font-size: 1.5rem!important;
+    }
+
+    .education-container .card-content .container. .certificate-container p {
+        font-size: 1.2rem;
+    }
+
+    .project-container .professional-card {
+        height: 420px;
+    }
+
+    .project-container .card-action {
+        padding-top: 24px!important;
+    }
+
+    .react-player {
+        height: 40vh!important;
+    }
+
+    .contact-info {
+        padding-bottom: 840px!important;
+    }
+
+    .skills-card img {
+        max-width: 95px!important;
+        height: 95px!important;
+    }
+}
+
+@media all and (max-width: 993px) {
+    .container {
+        margin: 0 auto;
+    }
+
+    #Introduction h2 {
+        font-size: 38px!important;
+        line-height: 50px!important;
+    }
+
+    .skills-card img {
+        max-width: 85px!important;
+        height: 85px!important;
+    }
+
+    .contact-info {
+        padding-bottom: 430px!important;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .about-container .brown-text {
+        font-size: 25px!important;
+    }
+
+    .project-container .card-title {
+        font-size: 20px!important;
+    }
+
+    .project-container .card-data p {
+        font-size: 14px!important;
+        padding-top: 0!important;
+    }
+
+    .project-container .card-reveal div {
+        font-size: 0.8rem;
+    }
+
+    .project-container .card-reveal p {
+        font-size: 0.8rem;
+    }
+
+    .project-container .card-content .card-title .row {
+        margin-bottom: 0 !important;
+    }
+
+    .project-container .personal-card {
+        height: 445px!important;
+    }
+
+    .project-container .professional-card {
+        height: 390px!important;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+    #Introduction {
+        background-position-x: 53%!important;
+    }
+
+    #Introduction .underline {
+        border-bottom: 2px solid teal;
+    }
+
+    #Introduction h2 {
+        font-size: 20px!important;
+        padding-left: 0!important;
+        line-height: 30px!important;
+    }
+
+    .about-container {
+        padding: 0 30px 100px 30px!important;
+    }
+
+    .about-container p {
+        font-size: 1.1rem;
+    }
+
+    .about-container h2 {
+        font-size: 1.4rem;
+    }
+
+    .experience-header .card-title {
+        font-size: 0.9rem!important;
+    }
+
+    .experience-header img {
+        height: 30px;
+    }
+
+    .experience-header .brown-text {
+        font-size: 1.1rem!important;
+    }
+
+    .experience-container li {
+        font-size: 1rem!important;
+        margin-left: 8px!important;
+    }
+
+    .education-container li {
+        list-style-type: none!important;
+    }
+
+    .project-container .card, .project-container .card-image,
+    .project-container .card-data, .project-container .card-image{
+        height: fit-content!important;
+    }
+
+    .react-player {
+        height: 30vh!important;
+    }
+
+    .skills-card img {
+        max-width: 75px!important;
+        height: 75px!important;
+    }
+
+    .certificate-container .card-title, .education-container .card-title {
+        font-size: 1.1rem!important;
+    }
+
+    .certificate-container p, .education-container .card-content .container {
+        font-size: 0.9rem!important;
+    }
+
+    .certificate-container .card-action,
+    .education-container .card-action,
+    .experience-container .card-action {
+        font-size: 0.8rem!important;
+    }
+
+    .contact-info {
+        padding-bottom: 210px!important;
+    }
+
+    .contact-info .teal-text {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+
+@media all and (max-width: 360px) {
+    #Introduction h2 {
+        font-size: 18px!important;
+        line-height: 25px!important;
+    }
+
+    #Introduction .container {
+        padding-left: 10px!important;
+    }
+}

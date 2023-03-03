@@ -1,0 +1,16 @@
+.styleHeader {
+    height: 100px!important;
+    font-size: 44px!important;
+    margin: 0 0 60px;
+    padding: 25px 40px;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: left;
+}
+
+@media all and (max-width: 600px) {
+    .styleHeader {
+        padding-left: 10px;
+        font-size: 38px!important;
+    }
+}

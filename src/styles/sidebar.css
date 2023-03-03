@@ -1,0 +1,161 @@
+/************ Fixed Sidenav Bar Style ****************/
+.sidenav {
+     width: 230px!important;
+}
+
+ul.sidenav li {
+     padding: 0;
+}
+
+.section {
+     padding-top: 0;
+     position: fixed;
+}
+
+ul.sidenav-fixed li.logo {
+     background-color: #fafafa;
+     border-bottom: 1px solid #ddd;
+     box-sizing: content-box;
+     min-height: 90px;
+     text-align: center;
+}
+
+.sidenav .user-view {
+     margin-bottom: 0!important;
+}
+
+.sidenav li>a {
+     padding-right: 10px!important;
+
+}
+
+.logo-name {
+     text-decoration: none!important;
+     border: 0!important;
+     text-align: center!important;
+}
+
+.logo-name h1 {
+     font-weight: lighter!important;
+     margin-bottom: 0;
+}
+
+.logo-name-desc {
+     font-size: 1.0rem;
+     text-decoration: none!important;
+     border: 0!important;
+     text-align: center!important;
+     font-weight: normal!important;
+}
+
+.menu-item {
+     text-decoration: none!important;
+     font-size: 1.0rem!important;
+     font-weight: 300!important;
+}
+
+.menu-item img, .toggle-menu-item img {
+     display: inline-block;
+     margin: 2px 2px;
+}
+
+.sidenav-fixed a span {
+     padding-left: 20px;
+     color: black!important;
+}
+
+.sidenav-fixed .menu-item.active,
+.sidenav-fixed .menu-item:hover {
+     border-left: 5px solid;
+     font-weight: 500!important;
+}
+
+nav.hide-on-small-only, nav.disable-navbar {
+     background: white!important;
+     box-shadow: none!important;
+     height: 0!important;
+}
+
+/********************************************************/
+
+/************ Collapse Sidenav Bar Style ****************/
+@media (max-width: 992px) {
+     #slide-out {
+          margin-top: 0;
+     }
+
+     #slide-out a {
+          box-sizing: content-box;
+          display: block;
+          line-height: 100%;
+          padding: 20px 15px 10px 30px;
+          font-weight: 400;
+     }
+
+     #slide-out span {
+          padding-left: 20px;
+          font-size: 16px;
+     }
+
+     nav.hide-on-large-only {
+          display: block;
+          background: white;
+          height: 64px;
+     }
+
+     .material-icons {
+          text-decoration: none !important;
+          height: 64px !important;
+          line-height: 64px !important;
+     }
+
+     .material-icons.md-dark {
+          color: rgba(0, 0, 0, 0.54);
+     }
+
+     .material-icons.md-36 {
+          font-size: 37px;
+     }
+
+     .sidenav-trigger {
+          text-decoration: none!important;
+     }
+
+     .name-title {
+          display: block;
+          height: 100%;
+          width: 100%;
+          position: absolute;
+          line-height: 20px;
+          text-align: center;
+     }
+
+     .name-title a {
+          padding-top: 15px;
+          font-size: 24px;
+          display: block;
+          text-decoration: none !important;
+     }
+
+     .name-title span {
+          display: block;
+          font-size: 14px;
+          padding-top: 5px;
+          font-weight: normal;
+     }
+
+     .toggle-menu-item {
+          text-decoration: none !important;
+          text-align: left;
+          word-spacing: 10px;
+          font-size: 14px !important;
+     }
+}
+
+/********************************************************/
+
+@media (min-width: 993px) {
+     .navbar-fixed {
+          height: 0;
+     }
+}
