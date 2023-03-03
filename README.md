@@ -13,3 +13,10 @@ A simple portfolio of mine developed in react JS and material UI.
 - Java script
 - Netlify
 - fontAwesome
+
+## Live website running below URL - 
+
+```
+https://tenzin-dawa.netlify.app/
+
+```
